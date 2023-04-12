@@ -6,4 +6,4 @@
 # Then i train my model """classifier.fit(X_train, y_train)""" and check prediction """classifier.predict(sc.transform([[30, 87000]]))"""
 # Next i prepare my "y-pred" on "X_test" """y_pred = classifier.predict(X_test)""" and import "confusion_matrix"
 # And "fit" into my "y_pred" and "y_test" """cm = confusion_matrix(y_test, y_pred)"""
-# Finally i get my score """accuracy_score(y_test, y_pred)"""
+# Finally i get my score """accuracy_score(y_test, y_pred)""" and visualize my results
